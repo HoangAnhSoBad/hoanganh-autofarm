@@ -1,10 +1,10 @@
-# hoanganh Auto Farm · v3.8.0
+# hoanganh Auto Farm · v3.8.1
 
 Bot hỗ trợ [PokéSurvivor](https://pokesurvivor.com/) và [Doofcraft](https://pokesurvivor.doofcraft.com/).
 
-- [Tải ZIP máy tính](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.8.0/hoanganh-autofarm-resource-v3.8.0.zip)
-- [Tải ZIP Android](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.8.0/hoanganh-autofarm-mobile-v3.8.0.zip)
-- [Tải userscript Android](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.8.0/hoanganh-autofarm-mobile.user.js)
+- [Tải ZIP máy tính](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.8.1/hoanganh-autofarm-resource-v3.8.1.zip)
+- [Tải ZIP Android](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.8.1/hoanganh-autofarm-mobile-v3.8.1.zip)
+- [Tải userscript Android](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.8.1/hoanganh-autofarm-mobile.user.js)
 
 Máy tính: giải nén, mở chrome://extensions (Edge: edge://extensions), bật Developer mode, chọn Load unpacked và chọn thư mục chứa manifest.json. Tắt bản cũ để tránh hai tool cùng điều khiển; tải lại game. Nếu cập nhật cùng thư mục, bấm Reload tiện ích. Cấu hình có thể không chuyển nếu trình duyệt cấp ID tiện ích mới.
 
@@ -12,18 +12,24 @@ Android: dùng Firefox và Tampermonkey, nhập hoanganh-autofarm-mobile.user.js
 
 [Hỗ trợ qua Facebook](https://www.facebook.com/NguyenHoangAnh.Support)
 
-# hoanganh Auto Farm v3.8.0
+# HoangAnh Auto Farm v3.8.1
 
-- Hộ tống: tính khoảng cách theo kích thước Pokémon dẫn đường và theo dõi NPC; đi vượt vòng xanh để NPC phía sau vào vùng cứu hộ. Chỉ chờ khi thấy NPC trong vùng; không tự nhận nhiệm vụ đã hoàn thành.
-- Chọn chiêu trước Bond: xét cấp chiêu đã xác nhận, tầm đánh, dữ liệu sát thương/hồi chiêu tham khảo và mật độ quái. Cho phép tia tụ lực như Hyper Beam ở khoảng cách an toàn; tăng ưu tiên chiêu diện rộng khi quái áp sát. Giữ các chặn an toàn và ưu tiên Bond chính đã hoàn tất.
-- Phá vòng vây: tìm hướng ít nguy hiểm với đường không xuyên vật cản, giữ hướng ngắn hạn để giảm đảo hướng. Né vùng đánh boss vẫn ưu tiên hơn phá vây; không bảo đảm thoát mọi vòng quái.
-- Treo farm: thêm nút Tách game sang cửa sổ riêng, bảo vệ tab đang chạy khỏi tự discard, giữ thức theo tùy chọn. Khôi phục trạng thái discard trước đó khi dừng/tạm dừng hoặc mất heartbeat.
+## Sửa chọn chiêu Solar Beam / Hyper Beam
+- Sửa trường hợp giữ Hyper Beam cấp 2 khi Solar Beam đã cấp 4: cho phép chuyển sang chiêu tụ lực cùng loại có cấp cao hơn dù quái ở gần, nếu đang dùng chiêu tụ lực. Không tự đổi từ chiêu an toàn sang tụ lực khi quái áp sát.
+- Giảm độ ưu tiên giữ ô đang dùng khi chiêu cùng nhóm cao hơn ít nhất 2 cấp; vẫn tôn trọng chặn né nguy hiểm, HP thấp, Choice Band và Bond chính.
+- Cập nhật số liệu nâng cấp Doofcraft theo dữ liệu công khai ngày 28/10/2026, phân biệt từng cấp thay vì dùng số cơ bản cho mọi cấp.
+- Cho thử chọn lại sau khi thấy cấp chiêu mới nếu lần chuyển trước không được game xác nhận. Hiển thị tên/cấp và ô đang dùng đọc từ HUD trong tab Build.
 
-## Sử dụng khi làm công việc khác
-Trong Farm, bật Giữ màn hình và máy thức, Lưu cấu hình, bấm Tách game sang cửa sổ riêng rồi Bắt đầu. Để cửa sổ game còn hiển thị bên cạnh cửa sổ làm việc; không thu nhỏ hoặc che kín. Tool vẫn dựa trên hình game: tab bị ẩn/ngừng vẽ sẽ không có dữ liệu mới. Không hỗ trợ bảo đảm farm khi máy ngủ, gập nắp hoặc trình duyệt đóng. Android cần tab game ở phía trước.
+## Sửa Pokémon Shadow / sự kiện
+- Bổ sung sprite và định danh nội bộ cho 8 Pokémon Shadow cùng Bloodmoon Ursaluna từ catalog Doofcraft hiện tại.
+- Phân biệt số Dex quốc gia và mã nội bộ: Shadow Mewtwo #150 · ID 10901; Shadow Lugia #249 · ID 10902.
+- Khi Pokémon sự kiện cùng loài đang được chọn trong game, giữ đúng biến thể thay vì đổi về bản thường. TM và 4 chiêu core lưu riêng theo mã nội bộ.
+- Sửa nhận diện dự phòng khi danh sách tên HUD rỗng nhưng vẫn đọc được tên từ chữ trong game.
+- Giữ build Shadow đã có từ nguồn tham khảo. Biến thể mới chưa có build riêng được ghi rõ là tham khảo từ dạng gốc, không coi là meta đã kiểm chứng.
 
-## Core tự chọn từ v3.7
-Trong Build chọn Pokémon, bật Dùng 4 chiêu core tự chọn, nhập 4 chiêu khác nhau và Lưu cấu hình. Lưu riêng từng Pokémon; dừng phiên trước khi đổi core. TM cho bộ tự chọn cần trang bị trong game trước.
+## Cập nhật
+Máy tính: thay nội dung thư mục tiện ích đang dùng bằng ZIP mới, bấm Reload ở chrome://extensions hoặc edge://extensions rồi tải lại game. Tắt các bản cũ nếu cài thành tiện ích mới.
+Android: nhập userscript v3.8.1 vào Tampermonkey rồi tải lại game.
+Trong Build có thể để tự nhận diện hoặc chọn đúng tên Shadow; tên hiển thị kèm ID để phân biệt với bản thường.
 
-## Kiểm chứng và giới hạn
-Đã chạy bộ kiểm tra hồi quy, mô phỏng hộ tống 3 kích thước, vòng vây và chọn chiêu, kiểm tra giao diện trên Chrome. Số liệu sức mạnh chỉ là ước tính từ catalog đã thu thập, không phải DPS trực tiếp theo toàn bộ buff của nhân vật. Chưa xác minh phiên farm qua đêm và thiết bị Android thật.
+Đã kiểm tra hồi quy, Solar4/Hyper2 ở cả hai bản game, nhận diện HUD ở 1x/2x, chọn đúng Shadow từ menu, kho TM tách biệt, sprite Shadow và điều khiển chuyển sang Solar Beam. Kiểm tra gameplay bằng mô phỏng Chrome; chưa xác minh trận thực tế trên tài khoản của bạn.
