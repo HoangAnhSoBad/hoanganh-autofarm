@@ -15,7 +15,6 @@ Android: dùng Firefox và Tampermonkey, nhập hoanganh-autofarm-mobile.user.js
 # HoangAnh Auto Farm v3.9.1
 
 ## Chọn và giữ Bond
-- Sửa trường hợp Bond Hex + Hyper Beam bị Hail cấp cao lấn điểm: ưu tiên Bond có chiêu core và có thể đánh tới địch, rồi giữ Bond thay vì quay lại chiêu đơn.
 - Lưu cấp chiêu đã đọc theo tên chiêu, giữ thông tin khi chuyển ô/ghép Bond. Không tự đoán cấp cao khi chưa đọc được.
 - Bond tầm xa an toàn vẫn có thể được chọn trong lúc di chuyển hoặc né; giữ chặn khi chờ game, vào cổng, bị Choice Band khóa, ô không rõ hoặc chỉ gồm buff/chiêu không tới địch.
 - Bond chính đủ 4 core vẫn được ưu tiên cao nhất.
