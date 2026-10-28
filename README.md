@@ -1,10 +1,10 @@
-# hoanganh Auto Farm · v3.9.0
+# hoanganh Auto Farm · v3.9.1
 
 Bot hỗ trợ [PokéSurvivor](https://pokesurvivor.com/) và [Doofcraft](https://pokesurvivor.doofcraft.com/).
 
-- [Tải ZIP máy tính](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.9.0/hoanganh-autofarm-resource-v3.9.0.zip)
-- [Tải ZIP Android](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.9.0/hoanganh-autofarm-mobile-v3.9.0.zip)
-- [Tải userscript Android](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.9.0/hoanganh-autofarm-mobile.user.js)
+- [Tải ZIP máy tính](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.9.1/hoanganh-autofarm-resource-v3.9.1.zip)
+- [Tải ZIP Android](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.9.1/hoanganh-autofarm-mobile-v3.9.1.zip)
+- [Tải userscript Android](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.9.1/hoanganh-autofarm-mobile.user.js)
 
 Máy tính: giải nén, mở chrome://extensions (Edge: edge://extensions), bật Developer mode, chọn Load unpacked và chọn thư mục chứa manifest.json. Tắt bản cũ để tránh hai tool cùng điều khiển; tải lại game. Nếu cập nhật cùng thư mục, bấm Reload tiện ích. Cấu hình có thể không chuyển nếu trình duyệt cấp ID tiện ích mới.
 
@@ -12,20 +12,23 @@ Android: dùng Firefox và Tampermonkey, nhập hoanganh-autofarm-mobile.user.js
 
 [Hỗ trợ qua Facebook](https://www.facebook.com/NguyenHoangAnh.Support)
 
-# HoangAnh Auto Farm v3.9.0
+# HoangAnh Auto Farm v3.9.1
 
-- Chỉ dùng 4 chiêu core tự chọn, lưu riêng cho từng Pokémon. Bỏ build tham khảo, lựa chọn đánh xa/cận chiến và so sánh build TM.
-- Giữ core tự chọn đã lưu từ bản trước; nạp lại khi mở tool lần sau. Pokémon Shadow và dạng thường được lưu riêng theo định danh.
-- Ưu tiên cao nhất cho học, nâng cấp và tiến hóa chiêu thuộc core khi xuất hiện. Ưu tiên ghép 4 core thành Bond chính; giữ dùng Bond chính sau khi hoàn thành.
-- Không tự dùng build tham khảo nếu chưa lưu core. Khi không có thẻ core, vẫn xử lý lựa chọn dự phòng/reroll theo cấu hình để tránh kẹt.
-- Giữ các cải tiến Z-Move, chọn chiêu mạnh, di chuyển và auto farm từ bản trước.
+## Chọn và giữ Bond
+- Sửa trường hợp Bond Hex + Hyper Beam bị Hail cấp cao lấn điểm: ưu tiên Bond có chiêu core và có thể đánh tới địch, rồi giữ Bond thay vì quay lại chiêu đơn.
+- Lưu cấp chiêu đã đọc theo tên chiêu, giữ thông tin khi chuyển ô/ghép Bond. Không tự đoán cấp cao khi chưa đọc được.
+- Bond tầm xa an toàn vẫn có thể được chọn trong lúc di chuyển hoặc né; giữ chặn khi chờ game, vào cổng, bị Choice Band khóa, ô không rõ hoặc chỉ gồm buff/chiêu không tới địch.
+- Bond chính đủ 4 core vẫn được ưu tiên cao nhất.
 
-## Cách dùng
-1. Mở tab Build trong bảng tool ở game.
-2. Chọn đúng Pokémon rồi nhập 4 tên chiêu khác nhau từ danh sách gợi ý.
-3. Bấm **Lưu và áp dụng cấu hình**. Đổi Pokémon sẽ nạp core đã lưu của Pokémon đó.
-4. Nếu cần TM, trang bị trong game trước. Dừng phiên trước khi thay core hoặc Pokémon.
+## Địa hình và di chuyển
+- Đọc địa hình Doofcraft theo ô 8 pixel thay vì 16 pixel để nhận diện vách mỏng chính xác hơn; gộp các ô liền nhau để giảm số vật cản cần xử lý.
+- Nhớ tường tĩnh có biên dạng rõ tối đa 12 giây khi khuất, có giới hạn khoảng cách và số lượng; đặt lại khi đổi arena/dịch chuyển lớn.
+- Loại hướng đi xuyên vật cản rắn ngay cả khi áp lực quái cao. Khi đã chạm biên, vẫn cho phép hướng đi ra khỏi vật cản.
+- Đường vòng có thêm khoảng đệm và ưu tiên khoảng trống để hạn chế bám sát góc tường.
 
-Core lưu trên thiết bị/trình duyệt hiện tại; Android lưu riêng từng website. Giữ cùng ID tiện ích và dữ liệu trình duyệt khi cập nhật để giữ cấu hình.
+## Kiểm tra và cập nhật
+Đã qua bộ hồi quy, renderer HUD Doofcraft với bố cục Hyper Beam / Hail / Bond Hex + Hyper Beam, giữ Bond sau xác nhận, vách 8 pixel, che khuất tường 3 giây và mô phỏng đường vòng quanh vật cản/góc chữ U. Kiểm tra bằng fixture Chrome; chưa đo hiệu quả farm trong trận thật hoặc bảo đảm không bao giờ kẹt.
 
-Kiểm tra: toàn bộ bộ kiểm thử logic; giao diện lưu/tải lại trên cả hai website, hai Pokémon có core riêng, kiểm tra trùng chiêu và loại bỏ lựa chọn tham khảo; bootstrap mobile. Chưa kiểm chứng phiên chơi thật hoặc điện thoại thật.
+Máy tính: thay tệp trong thư mục tiện ích cũ, Reload tiện ích rồi tải lại game. Android: nhập userscript mới và tải lại game. Giữ cấu hình 4 core đã lưu của v3.9.0.
+
+Core: vào Build → chọn Pokémon → nhập 4 chiêu → Lưu và áp dụng cấu hình. Core lưu riêng từng Pokémon trên thiết bị; không dùng build tham khảo.
