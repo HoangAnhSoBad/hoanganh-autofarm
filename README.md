@@ -12,18 +12,10 @@ Tool dành cho **Chrome hoặc Microsoft Edge trên máy tính Windows / MacBook
 2. Mở thư mục **Downloads / Tải xuống** trên máy tính.
 3. **Windows:** nhấp chuột phải vào tệp ZIP → **Extract All… / Giải nén tất cả…** → **Extract / Giải nén**. Nếu chưa thấy mục này, chọn **Show more options / Hiển thị thêm tùy chọn**.
 4. **MacBook:** nhấp đúp vào tệp ZIP để giải nén bằng Finder.
-5. Đặt thư mục đã giải nén ở nơi dễ tìm và giữ lâu dài, ví dụ `Documents/HoangAnh-AutoFarm`. Đừng xóa hoặc chuyển thư mục này sau khi cài.
-6. Mở thư mục đó. Bạn cần nhìn thấy tệp **`manifest.json`**, cùng các tệp như `autofarm.js`, `popup.html` và thư mục `icons`.
+5. Sau khi giải nén, bạn sẽ có **thư mục màu vàng tên `hoanganh-autofarm-resource-v3.12.0`**. Đây là thư mục cần chọn để cài tool.
+6. Giữ nguyên thư mục này sau khi cài. Không xóa hoặc chuyển nó sang nơi khác.
 
-**Nếu mở ra chỉ thấy thêm một thư mục, hãy mở tiếp vào trong cho đến khi thấy `manifest.json`.** Nếu máy ẩn đuôi tệp, tên có thể chỉ hiện là `manifest`.
-
-```text
-HoangAnh-AutoFarm/        ← Chọn thư mục này khi cài
-├── manifest.json
-├── autofarm.js
-├── popup.html
-└── icons/
-```
+**Bạn chọn cả thư mục màu vàng, không mở/chọn tệp `manifest.json` bên trong.**
 
 ## 2. Nạp tool vào Chrome hoặc Edge
 
@@ -33,8 +25,14 @@ HoangAnh-AutoFarm/        ← Chọn thư mục này khi cài
    - Microsoft Edge: `edge://extensions`
 3. Bật **Developer mode / Chế độ dành cho nhà phát triển**. Chrome thường đặt ở góc trên bên phải; Edge có thể đặt trong thanh bên.
 4. Bấm **Load unpacked / Tải tiện ích đã giải nén**.
-5. Trong cửa sổ chọn thư mục, tìm và chọn **thư mục chứa trực tiếp `manifest.json`** ở bước 1, rồi bấm **Select Folder / Chọn thư mục**. Bạn chọn cả thư mục, không chọn riêng tệp JSON và không chọn tệp ZIP.
-6. Cài thành công khi trang tiện ích xuất hiện ô **hoanganh Auto Farm · Resource Pilot**, phiên bản **3.12.0**, với công tắc bật.
+5. Trong cửa sổ vừa hiện ra, bấm **Tải xuống / Downloads** ở bên trái (hoặc nơi bạn đã giải nén).
+6. **Bấm một lần vào thư mục màu vàng `hoanganh-autofarm-resource-v3.12.0`** để dòng đó được tô sáng.
+7. Bấm nút **Chọn Cặp** ở góc dưới bên phải. Tùy ngôn ngữ máy, nút này có thể ghi **Chọn thư mục / Select Folder / Select**. Không cần mở một tệp nào bên trong thư mục.
+
+**Thao tác cần làm: chọn thư mục màu vàng → Chọn Cặp. Không chọn tệp ZIP, không chọn hay mở `manifest.json`.**
+
+
+Cài thành công khi trang tiện ích xuất hiện ô **hoanganh Auto Farm · Resource Pilot**, phiên bản **3.12.0**, với công tắc bật.
 
 > Không thấy nút Load unpacked? Kiểm tra đã bật Developer mode chưa. MacBook cũng làm tương tự bằng Chrome hoặc Edge; hướng dẫn này không dùng cho Safari.
 
@@ -79,7 +77,7 @@ Không cần bấm **Remove / Xóa** tiện ích để cập nhật. Nếu nạp
 
 | Bạn gặp gì? | Cách xử lý |
 | --- | --- |
-| “Không thể tải tệp kê khai / Manifest missing” | Bạn có thể chọn sai thư mục hoặc chưa giải nén. Mở thư mục và tìm `manifest.json`, rồi Load unpacked đúng thư mục chứa tệp đó. |
+| “Không thể tải tệp kê khai / Manifest missing” | Kiểm tra đã giải nén ZIP và chọn thư mục màu vàng chưa. Nếu phần mềm giải nén tạo thêm một lớp thư mục trùng tên, chọn thư mục bên trong. `manifest.json` chỉ dùng để kiểm tra đúng thư mục, không phải tệp để bấm cài. |
 | ZIP đã tải nhưng không biết mở tệp nào để cài | Giải nén rồi làm bước 2. Không mở riêng `autofarm.js` hay `manifest.json` để cài. |
 | Không thấy bảng RESOURCE PILOT trong game | Kiểm tra tiện ích đang bật, mở game trong đúng trình duyệt/hồ sơ đã cài, rồi tải lại trang game. Nếu trình duyệt hỏi quyền truy cập trang game, cho phép trên website game. |
 | Vẫn hiện bản cũ sau cập nhật | Kiểm tra đã thay tệp trong đúng thư mục cũ, bấm Reload tiện ích rồi tải lại trang game. Tắt các bản tool trùng. |
