@@ -1,10 +1,10 @@
-# hoanganh Auto Farm · v3.9.1
+# hoanganh Auto Farm · v3.10.0
 
 Bot hỗ trợ [PokéSurvivor](https://pokesurvivor.com/) và [Doofcraft](https://pokesurvivor.doofcraft.com/).
 
-- [Tải ZIP máy tính](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.9.1/hoanganh-autofarm-resource-v3.9.1.zip)
-- [Tải ZIP Android](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.9.1/hoanganh-autofarm-mobile-v3.9.1.zip)
-- [Tải userscript Android](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.9.1/hoanganh-autofarm-mobile.user.js)
+- [Tải ZIP máy tính](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.10.0/hoanganh-autofarm-resource-v3.10.0.zip)
+- [Tải ZIP Android](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.10.0/hoanganh-autofarm-mobile-v3.10.0.zip)
+- [Tải userscript Android](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.10.0/hoanganh-autofarm-mobile.user.js)
 
 Máy tính: giải nén, mở chrome://extensions (Edge: edge://extensions), bật Developer mode, chọn Load unpacked và chọn thư mục chứa manifest.json. Tắt bản cũ để tránh hai tool cùng điều khiển; tải lại game. Nếu cập nhật cùng thư mục, bấm Reload tiện ích. Cấu hình có thể không chuyển nếu trình duyệt cấp ID tiện ích mới.
 
@@ -12,22 +12,21 @@ Android: dùng Firefox và Tampermonkey, nhập hoanganh-autofarm-mobile.user.js
 
 [Hỗ trợ qua Facebook](https://www.facebook.com/NguyenHoangAnh.Support)
 
-# HoangAnh Auto Farm v3.9.1
+# HoangAnh Auto Farm v3.10.0
 
-## Chọn và giữ Bond
-- Lưu cấp chiêu đã đọc theo tên chiêu, giữ thông tin khi chuyển ô/ghép Bond. Không tự đoán cấp cao khi chưa đọc được.
-- Bond tầm xa an toàn vẫn có thể được chọn trong lúc di chuyển hoặc né; giữ chặn khi chờ game, vào cổng, bị Choice Band khóa, ô không rõ hoặc chỉ gồm buff/chiêu không tới địch.
-- Bond chính đủ 4 core vẫn được ưu tiên cao nhất.
+## Hai mục tiêu
+- **Farm**: ưu tiên tài nguyên, tăng trọng số loại còn thiếu trong mục tiêu; giữ rương/boss/Rift theo thiết lập. Cấu hình Vàng hoặc Vé cũ chuyển về Farm, giữ số tài nguyên đã đặt.
+- **Sinh tồn**: ưu tiên XP, hồi phục và chiến đấu an toàn; bỏ đuổi tiền/vé, rương khóa và nhiệm vụ phụ. Không chủ động vào Rift. Khi gặp boss đã nhận diện, đủ HP/cấp/chiêu thì chủ động giữ cự ly đánh; né vùng báo chiêu và vật cản vẫn ưu tiên trước.
+- Sinh tồn bắt đầu rút lui dưới ngưỡng ít nhất 55% HP, hồi tới 72% mới bỏ trạng thái rút lui để tránh đổi hướng liên tục. Hồi máu khẩn cấp và khả năng hồi sinh có thể ưu tiên hơn nâng core trong chế độ này.
+- Sinh tồn không dừng vì đủ mục tiêu tài nguyên. Hiện thời gian tốt nhất trong phiên đọc từ đồng hồ HUD; lưu cùng phiên khi ghi kết quả. Giới hạn phút/lượt và nút Dừng vẫn có hiệu lực.
 
-## Địa hình và di chuyển
-- Đọc địa hình Doofcraft theo ô 8 pixel thay vì 16 pixel để nhận diện vách mỏng chính xác hơn; gộp các ô liền nhau để giảm số vật cản cần xử lý.
-- Nhớ tường tĩnh có biên dạng rõ tối đa 12 giây khi khuất, có giới hạn khoảng cách và số lượng; đặt lại khi đổi arena/dịch chuyển lớn.
-- Loại hướng đi xuyên vật cản rắn ngay cả khi áp lực quái cao. Khi đã chạm biên, vẫn cho phép hướng đi ra khỏi vật cản.
-- Đường vòng có thêm khoảng đệm và ưu tiên khoảng trống để hạn chế bám sát góc tường.
+## Sửa chọn Bond
+- Sửa Bond hỗn hợp Hail + Hyper Beam bị chặn khi di chuyển/né mặc dù còn chiêu đánh tới mục tiêu.
+- Bond ngoài core không còn bị loại hoàn toàn; Bond chính đủ 4 core vẫn ưu tiên khi có thể sử dụng.
+- Khôi phục nhóm Bond 2–4 chiêu từ lịch sử ghép đã xác nhận khi HUD chỉ nhận diện được một phần và chỉ có một nhóm phù hợp.
+- Tab Build hiển thị lý do đang giữ/chọn ô để dễ kiểm tra, không chỉ hiện tên nâng cấp gần nhất.
 
-## Kiểm tra và cập nhật
-Đã qua bộ hồi quy, renderer HUD Doofcraft với bố cục Hyper Beam / Hail / Bond Hex + Hyper Beam, giữ Bond sau xác nhận, vách 8 pixel, che khuất tường 3 giây và mô phỏng đường vòng quanh vật cản/góc chữ U. Kiểm tra bằng fixture Chrome; chưa đo hiệu quả farm trong trận thật hoặc bảo đảm không bao giờ kẹt.
+## Cập nhật và kiểm tra
+Thay tệp trong thư mục tiện ích cũ, Reload tiện ích rồi tải lại game; Android nhập userscript mới. Core tự chọn vẫn giữ nguyên.
 
-Máy tính: thay tệp trong thư mục tiện ích cũ, Reload tiện ích rồi tải lại game. Android: nhập userscript mới và tải lại game. Giữ cấu hình 4 core đã lưu của v3.9.0.
-
-Core: vào Build → chọn Pokémon → nhập 4 chiêu → Lưu và áp dụng cấu hình. Core lưu riêng từng Pokémon trên thiết bị; không dùng build tham khảo.
+Đã kiểm tra bằng renderer HUD Doofcraft với bố cục ảnh (Hyper Beam / Confusion / Hex / Bond Hail + Hyper Beam), các quyết định theo mục tiêu, ngưỡng hồi phục, lưu cấu hình/core và các kiểm thử hồi quy. Chưa đo tỷ lệ thắng hoặc thời gian sống trong trận thực tế. Chưa có tín hiệu xác minh riêng boss cuối/chiến thắng; chế độ xử lý boss đã nhận diện, không cam kết phá đảo hoặc đủ điều kiện thương mại.
