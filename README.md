@@ -2,13 +2,15 @@
 
 Tool dành cho **Chrome hoặc Microsoft Edge trên máy tính Windows / MacBook**. Hỗ trợ [PokéSurvivor](https://pokesurvivor.com/) và [Doofcraft](https://pokesurvivor.doofcraft.com/).
 
-**[⬇ BẤM VÀO ĐÂY ĐỂ TẢI TOOL CHO MÁY TÍNH](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.13.0/hoanganh-autofarm-resource-v3.13.0.zip)**
+**[⬇ BẤM VÀO ĐÂY ĐỂ TẢI TOOL CHO MÁY TÍNH](https://github.com/HoangAnhSoBad/hoanganh-autofarm/raw/refs/heads/main/hoanganh-autofarm-resource-v3.13.0.zip)**
 
 Đây là tiện ích trình duyệt. Bạn không cần cài Node.js, chạy lệnh hay tìm tệp `.exe`.
 
+Bản 3.13.0 hiện tải trực tiếp từ repository bằng nút ở trên. GitHub đang trả lỗi khi tạo Release nên mục Releases có thể vẫn hiện 3.12.0.
+
 ## Mới trong v3.13.0
 
-Item ưu tiên đổi được ngay khi đang chơi, giữ Bond core, giữ khoảng cách theo chiêu thực tế, đường đi ít đổi hướng và ưu tiên phá cột hồi máu Eternatus/Mega Darkrai trên Doofcraft. Xem [chi tiết bản cập nhật](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/tag/v3.13.0).
+Item ưu tiên đổi được ngay khi đang chơi, giữ Bond core, giữ khoảng cách theo chiêu thực tế, đường đi ít đổi hướng và ưu tiên phá cột hồi máu Eternatus/Mega Darkrai trên Doofcraft. Xem [chi tiết bản cập nhật](https://github.com/HoangAnhSoBad/hoanganh-autofarm/blob/main/RELEASE-v3.13.0.md).
 
 ## 1. Tải và giải nén
 
