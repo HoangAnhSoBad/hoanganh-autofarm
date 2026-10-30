@@ -1,18 +1,22 @@
-# HoangAnh Auto Farm · v3.12.0 — Máy tính
+# HoangAnh Auto Farm · v3.13.0 — Máy tính
 
 Tool dành cho **Chrome hoặc Microsoft Edge trên máy tính Windows / MacBook**. Hỗ trợ [PokéSurvivor](https://pokesurvivor.com/) và [Doofcraft](https://pokesurvivor.doofcraft.com/).
 
-**[⬇ BẤM VÀO ĐÂY ĐỂ TẢI TOOL CHO MÁY TÍNH](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.12.0/hoanganh-autofarm-resource-v3.12.0.zip)**
+**[⬇ BẤM VÀO ĐÂY ĐỂ TẢI TOOL CHO MÁY TÍNH](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.13.0/hoanganh-autofarm-resource-v3.13.0.zip)**
 
 Đây là tiện ích trình duyệt. Bạn không cần cài Node.js, chạy lệnh hay tìm tệp `.exe`.
 
+## Mới trong v3.13.0
+
+Item ưu tiên đổi được ngay khi đang chơi, giữ Bond core, giữ khoảng cách theo chiêu thực tế, đường đi ít đổi hướng và ưu tiên phá cột hồi máu Eternatus/Mega Darkrai trên Doofcraft. Xem [chi tiết bản cập nhật](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/tag/v3.13.0).
+
 ## 1. Tải và giải nén
 
-1. Bấm nút tải ở trên. Tệp nhận được có tên `hoanganh-autofarm-resource-v3.12.0.zip`.
+1. Bấm nút tải ở trên. Tệp nhận được có tên `hoanganh-autofarm-resource-v3.13.0.zip`.
 2. Mở thư mục **Downloads / Tải xuống** trên máy tính.
 3. **Windows:** nhấp chuột phải vào tệp ZIP → **Extract All… / Giải nén tất cả…** → **Extract / Giải nén**. Nếu chưa thấy mục này, chọn **Show more options / Hiển thị thêm tùy chọn**.
 4. **MacBook:** nhấp đúp vào tệp ZIP để giải nén bằng Finder.
-5. Sau khi giải nén, bạn sẽ có **thư mục màu vàng tên `hoanganh-autofarm-resource-v3.12.0`**. Đây là thư mục cần chọn để cài tool.
+5. Sau khi giải nén, bạn sẽ có **thư mục màu vàng tên `hoanganh-autofarm-resource-v3.13.0`**. Đây là thư mục cần chọn để cài tool.
 6. Giữ nguyên thư mục này sau khi cài. Không xóa hoặc chuyển nó sang nơi khác.
 
 **Bạn chọn cả thư mục màu vàng, không mở/chọn tệp `manifest.json` bên trong.**
@@ -26,13 +30,13 @@ Tool dành cho **Chrome hoặc Microsoft Edge trên máy tính Windows / MacBook
 3. Bật **Developer mode / Chế độ dành cho nhà phát triển**. Chrome thường đặt ở góc trên bên phải; Edge có thể đặt trong thanh bên.
 4. Bấm **Load unpacked / Tải tiện ích đã giải nén**.
 5. Trong cửa sổ vừa hiện ra, bấm **Tải xuống / Downloads** ở bên trái (hoặc nơi bạn đã giải nén).
-6. **Bấm một lần vào thư mục màu vàng `hoanganh-autofarm-resource-v3.12.0`** để dòng đó được tô sáng.
+6. **Bấm một lần vào thư mục màu vàng `hoanganh-autofarm-resource-v3.13.0`** để dòng đó được tô sáng.
 7. Bấm nút **Chọn Cặp** ở góc dưới bên phải. Tùy ngôn ngữ máy, nút này có thể ghi **Chọn thư mục / Select Folder / Select**. Không cần mở một tệp nào bên trong thư mục.
 
 **Thao tác cần làm: chọn thư mục màu vàng → Chọn Cặp. Không chọn tệp ZIP, không chọn hay mở `manifest.json`.**
 
 
-Cài thành công khi trang tiện ích xuất hiện ô **hoanganh Auto Farm · Resource Pilot**, phiên bản **3.12.0**, với công tắc bật.
+Cài thành công khi trang tiện ích xuất hiện ô **hoanganh Auto Farm · Resource Pilot**, phiên bản **3.13.0**, với công tắc bật.
 
 > Không thấy nút Load unpacked? Kiểm tra đã bật Developer mode chưa. MacBook cũng làm tương tự bằng Chrome hoặc Edge; hướng dẫn này không dùng cho Safari.
 
@@ -50,6 +54,8 @@ Cài thành công khi trang tiện ích xuất hiện ô **hoanganh Auto Farm ·
 8. Kiểm tra trạng thái chuyển sang **ĐANG FARM**. Nút **Tạm dừng** tạm ngưng điều khiển; nút **Dừng** kết thúc phiên điều khiển.
 
 **Để vừa làm việc vừa farm:** có thể dùng nút **Tách game sang cửa sổ riêng** và bật **Giữ màn hình và máy thức khi đang farm**. Giữ cửa sổ game còn hiển thị; khi tab bị ẩn/thu nhỏ, trình duyệt có thể ngừng vẽ game. Tool không chạy khi máy đã tắt hoặc ngủ.
+
+Trong tab Farm, bạn có thể đổi **Item ưu tiên** ngay khi đang chơi; lựa chọn được lưu tự động và áp dụng khi game đưa bảng đổi item. Chọn **Tự chọn theo tình huống** để tool tự đánh giá.
 
 ## 4. Auto Roll theo gen
 
