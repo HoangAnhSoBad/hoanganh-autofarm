@@ -1,24 +1,18 @@
-# HoangAnh Auto Farm · v3.13.0 — Máy tính
+# HoangAnh Auto Farm · 3.2 (tiện ích 3.20.0) — Máy tính
 
-Tool dành cho **Chrome hoặc Microsoft Edge trên máy tính Windows / MacBook**. Hỗ trợ [PokéSurvivor](https://pokesurvivor.com/) và [Doofcraft](https://pokesurvivor.doofcraft.com/).
+**[⬇ TẢI TOOL CHO MÁY TÍNH](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.20.0/hoanganh-autofarm-resource-v3.20.0.zip)**
 
-**[⬇ BẤM VÀO ĐÂY ĐỂ TẢI TOOL CHO MÁY TÍNH](https://github.com/HoangAnhSoBad/hoanganh-autofarm/raw/refs/heads/main/hoanganh-autofarm-resource-v3.13.0.zip)**
+Bản 3.2 cho bạn lưu hai nhóm Bond riêng: 4 chiêu Dọn quái và 4 chiêu Boss; tool tự chuyển theo mục tiêu và nguy hiểm. Core cũ được giữ nguyên làm nhóm Dọn quái. [Chi tiết cập nhật](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/tag/v3.20.0).
 
-Đây là tiện ích trình duyệt. Bạn không cần cài Node.js, chạy lệnh hay tìm tệp `.exe`.
-
-Bản 3.13.0 hiện tải trực tiếp từ repository bằng nút ở trên. GitHub đang trả lỗi khi tạo Release nên mục Releases có thể vẫn hiện 3.12.0.
-
-## Mới trong v3.13.0
-
-Item ưu tiên đổi được ngay khi đang chơi, giữ Bond core, giữ khoảng cách theo chiêu thực tế, đường đi ít đổi hướng và ưu tiên phá cột hồi máu Eternatus/Mega Darkrai trên Doofcraft. Xem [chi tiết bản cập nhật](https://github.com/HoangAnhSoBad/hoanganh-autofarm/blob/main/RELEASE-v3.13.0.md).
+Bản này đã cập nhật dữ liệu Doofcraft v40: Pokémon Shadow, Mega/DNA, item mới và giữ cự ly đánh boss theo tầm chiêu.
 
 ## 1. Tải và giải nén
 
-1. Bấm nút tải ở trên. Tệp nhận được có tên `hoanganh-autofarm-resource-v3.13.0.zip`.
+1. Bấm nút tải ở trên. Tệp nhận được có tên `hoanganh-autofarm-resource-v3.20.0.zip`.
 2. Mở thư mục **Downloads / Tải xuống** trên máy tính.
 3. **Windows:** nhấp chuột phải vào tệp ZIP → **Extract All… / Giải nén tất cả…** → **Extract / Giải nén**. Nếu chưa thấy mục này, chọn **Show more options / Hiển thị thêm tùy chọn**.
 4. **MacBook:** nhấp đúp vào tệp ZIP để giải nén bằng Finder.
-5. Sau khi giải nén, bạn sẽ có **thư mục màu vàng tên `hoanganh-autofarm-resource-v3.13.0`**. Đây là thư mục cần chọn để cài tool.
+5. Sau khi giải nén, bạn sẽ có **thư mục màu vàng tên `hoanganh-autofarm-resource-v3.20.0`**. Đây là thư mục cần chọn để cài tool.
 6. Giữ nguyên thư mục này sau khi cài. Không xóa hoặc chuyển nó sang nơi khác.
 
 **Bạn chọn cả thư mục màu vàng, không mở/chọn tệp `manifest.json` bên trong.**
@@ -32,13 +26,13 @@ Item ưu tiên đổi được ngay khi đang chơi, giữ Bond core, giữ kho�
 3. Bật **Developer mode / Chế độ dành cho nhà phát triển**. Chrome thường đặt ở góc trên bên phải; Edge có thể đặt trong thanh bên.
 4. Bấm **Load unpacked / Tải tiện ích đã giải nén**.
 5. Trong cửa sổ vừa hiện ra, bấm **Tải xuống / Downloads** ở bên trái (hoặc nơi bạn đã giải nén).
-6. **Bấm một lần vào thư mục màu vàng `hoanganh-autofarm-resource-v3.13.0`** để dòng đó được tô sáng.
+6. **Bấm một lần vào thư mục màu vàng `hoanganh-autofarm-resource-v3.20.0`** để dòng đó được tô sáng.
 7. Bấm nút **Chọn Cặp** ở góc dưới bên phải. Tùy ngôn ngữ máy, nút này có thể ghi **Chọn thư mục / Select Folder / Select**. Không cần mở một tệp nào bên trong thư mục.
 
 **Thao tác cần làm: chọn thư mục màu vàng → Chọn Cặp. Không chọn tệp ZIP, không chọn hay mở `manifest.json`.**
 
 
-Cài thành công khi trang tiện ích xuất hiện ô **hoanganh Auto Farm · Resource Pilot**, phiên bản **3.13.0**, với công tắc bật.
+Cài thành công khi trang tiện ích xuất hiện ô **hoanganh Auto Farm · Resource Pilot**, phiên bản **3.20.0**, với công tắc bật.
 
 > Không thấy nút Load unpacked? Kiểm tra đã bật Developer mode chưa. MacBook cũng làm tương tự bằng Chrome hoặc Edge; hướng dẫn này không dùng cho Safari.
 
@@ -47,7 +41,7 @@ Cài thành công khi trang tiện ích xuất hiện ô **hoanganh Auto Farm ·
 1. Trong **chính trình duyệt vừa cài tool**, mở [PokéSurvivor](https://pokesurvivor.com/) hoặc [Doofcraft](https://pokesurvivor.doofcraft.com/), rồi đăng nhập game.
 2. Nếu game đã mở trước khi cài, bấm nút **tải lại trang ↻** cạnh thanh địa chỉ.
 3. Khi tool nạp thành công, bạn sẽ thấy bảng **RESOURCE PILOT** nổi trên trang game. Nếu bảng bị thu gọn, bấm dấu **+** trên bảng.
-4. Chọn Pokémon muốn chơi trong game. Trong tab **Build** của tool, chọn đúng Pokémon, nhập **4 chiêu khác nhau** rồi bấm **Lưu và áp dụng cấu hình**. Core được lưu riêng cho từng Pokémon. Nếu cần TM, hãy trang bị trong game trước.
+4. Chọn Pokémon muốn chơi trong game. Trong tab **Build** của tool, chọn đúng Pokémon, nhập **4 chiêu nhóm Dọn quái**, tùy chọn thêm **4 chiêu nhóm Boss không trùng nhóm đầu**, rồi bấm **Lưu và áp dụng cấu hình**. Hai nhóm được lưu riêng cho từng Pokémon; để trống nhóm Boss để dùng một core. Nếu cần TM, hãy trang bị trong game trước.
 5. Vào tab **Farm**, chọn mục tiêu:
    - **Farm:** ưu tiên tài nguyên. Nhập số vàng / lượt gacha cần kiếm **thêm**. Ví dụ vàng `10000`, gacha `10`; mục không cần đặt thì để `0` hoặc để trống.
    - **Sinh tồn:** ưu tiên sống và tăng sức mạnh; không dừng theo mục tiêu tài nguyên.
