@@ -1,18 +1,18 @@
-# HoangAnh Auto Farm · 3.2 (tiện ích 3.20.0) — Máy tính
+# HoangAnh Auto Farm · 3.2.1 (tiện ích 3.20.1) — Máy tính
 
-**[⬇ TẢI TOOL CHO MÁY TÍNH](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.20.0/hoanganh-autofarm-resource-v3.20.0.zip)**
+**[⬇ TẢI TOOL CHO MÁY TÍNH](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/download/v3.20.1/hoanganh-autofarm-resource-v3.20.1.zip)**
 
-Bản 3.2 cho bạn lưu hai nhóm Bond riêng: 4 chiêu Dọn quái và 4 chiêu Boss; tool tự chuyển theo mục tiêu và nguy hiểm. Core cũ được giữ nguyên làm nhóm Dọn quái. [Chi tiết cập nhật](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/tag/v3.20.0).
+Bản 3.2.1 sửa giữ cự ly khi mất HUD, tránh va chạm với quái và ưu tiên biến hình hơn đá Z. Tool cho bạn lưu hai nhóm Bond riêng: 4 chiêu Dọn quái và 4 chiêu Boss; tool tự chuyển theo mục tiêu và nguy hiểm. Core cũ được giữ nguyên làm nhóm Dọn quái. [Chi tiết cập nhật](https://github.com/HoangAnhSoBad/hoanganh-autofarm/releases/tag/v3.20.1).
 
 Bản này đã cập nhật dữ liệu Doofcraft v40: Pokémon Shadow, Mega/DNA, item mới và giữ cự ly đánh boss theo tầm chiêu.
 
 ## 1. Tải và giải nén
 
-1. Bấm nút tải ở trên. Tệp nhận được có tên `hoanganh-autofarm-resource-v3.20.0.zip`.
+1. Bấm nút tải ở trên. Tệp nhận được có tên `hoanganh-autofarm-resource-v3.20.1.zip`.
 2. Mở thư mục **Downloads / Tải xuống** trên máy tính.
 3. **Windows:** nhấp chuột phải vào tệp ZIP → **Extract All… / Giải nén tất cả…** → **Extract / Giải nén**. Nếu chưa thấy mục này, chọn **Show more options / Hiển thị thêm tùy chọn**.
 4. **MacBook:** nhấp đúp vào tệp ZIP để giải nén bằng Finder.
-5. Sau khi giải nén, bạn sẽ có **thư mục màu vàng tên `hoanganh-autofarm-resource-v3.20.0`**. Đây là thư mục cần chọn để cài tool.
+5. Sau khi giải nén, bạn sẽ có **thư mục màu vàng tên `hoanganh-autofarm-resource-v3.20.1`**. Đây là thư mục cần chọn để cài tool.
 6. Giữ nguyên thư mục này sau khi cài. Không xóa hoặc chuyển nó sang nơi khác.
 
 **Bạn chọn cả thư mục màu vàng, không mở/chọn tệp `manifest.json` bên trong.**
@@ -26,13 +26,13 @@ Bản này đã cập nhật dữ liệu Doofcraft v40: Pokémon Shadow, Mega/DN
 3. Bật **Developer mode / Chế độ dành cho nhà phát triển**. Chrome thường đặt ở góc trên bên phải; Edge có thể đặt trong thanh bên.
 4. Bấm **Load unpacked / Tải tiện ích đã giải nén**.
 5. Trong cửa sổ vừa hiện ra, bấm **Tải xuống / Downloads** ở bên trái (hoặc nơi bạn đã giải nén).
-6. **Bấm một lần vào thư mục màu vàng `hoanganh-autofarm-resource-v3.20.0`** để dòng đó được tô sáng.
+6. **Bấm một lần vào thư mục màu vàng `hoanganh-autofarm-resource-v3.20.1`** để dòng đó được tô sáng.
 7. Bấm nút **Chọn Cặp** ở góc dưới bên phải. Tùy ngôn ngữ máy, nút này có thể ghi **Chọn thư mục / Select Folder / Select**. Không cần mở một tệp nào bên trong thư mục.
 
 **Thao tác cần làm: chọn thư mục màu vàng → Chọn Cặp. Không chọn tệp ZIP, không chọn hay mở `manifest.json`.**
 
 
-Cài thành công khi trang tiện ích xuất hiện ô **hoanganh Auto Farm · Resource Pilot**, phiên bản **3.20.0**, với công tắc bật.
+Cài thành công khi trang tiện ích xuất hiện ô **hoanganh Auto Farm · Resource Pilot**, phiên bản **3.20.1**, với công tắc bật.
 
 > Không thấy nút Load unpacked? Kiểm tra đã bật Developer mode chưa. MacBook cũng làm tương tự bằng Chrome hoặc Edge; hướng dẫn này không dùng cho Safari.
 
